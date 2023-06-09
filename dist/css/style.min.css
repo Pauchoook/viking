@@ -3462,7 +3462,6 @@ body {
 .for-whom__title {
   font-size: 52px;
   line-height: 110%;
-  text-align: center;
   color: var(--red-dark);
   margin-bottom: 80px;
 }

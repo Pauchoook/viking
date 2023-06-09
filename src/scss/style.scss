@@ -1,0 +1,39 @@
+@import "./base/swiper";
+@import "./fonts";
+@import "./base/normalize";
+@import "./base/vars";
+@import "./base/templates";
+@import "./base/settings";
+@import "./base/media";
+@import "./base/classes";
+@import "./base/aos";
+
+// ui
+@import "./ui/button";
+@import "./ui/list";
+@import "./ui/title";
+
+// mini-components
+@import "./mini-components/body-frame";
+@import "./mini-components/marquee";
+
+// components
+@import "./components/header";
+
+@import "./components/hero";
+@import "./components/about-festival";
+@import "./components/own-element";
+@import "./components/headliners";
+@import "./components/for-whom";
+@import "./components/get-festival";
+@import "./components/offer";
+@import "./components/program";
+@import "./components/images-ticker";
+@import "./components/bot";
+@import "./components/navigate";
+@import "./components/media-about";
+@import "./components/imandra-fest";
+@import "./components/partners";
+@import "./components/category-tickets";
+
+@import "./components/footer";

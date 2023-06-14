@@ -90,21 +90,26 @@
         }
       }
     }
+    @include mobile {
+      &::before {
+        clip-path: polygon(0 32%, 100% 22%, 100% 100%, 0% 100%) !important;
+      }
+    }
   }
   &__card-img {
     display: block;
     height: auto;
     margin: 0px auto 20px auto;
     transition: transform 0.2s ease;
-    &--family {
-      width: 324px;
-    }
-    &--travel {
-      width: 170px;
-    }
-    &--company {
-      width: 230px;
-    }
+    // &--family {
+    //   width: 324px;
+    // }
+    // &--travel {
+    //   width: 170px;
+    // }
+    // &--company {
+    //   width: 230px;
+    // }
     @include desktop {
       margin-bottom: 15px;
       &--family {
@@ -134,6 +139,14 @@
         margin: 0px auto 12px auto;
       }
     }
+    @include mobile {
+      &--family {
+        width: 210px;
+      }
+      &--company {
+        width: 160px;
+      }
+    }
   }
   &__title-card {
     font-size: 31px;
@@ -146,6 +159,7 @@
       font-size: 23px;
     }
     @include mobile {
+      font-size: 20px;
       margin-bottom: 15px;
     }
   }
